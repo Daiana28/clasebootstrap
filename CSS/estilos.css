@@ -1,0 +1,105 @@
+/*puede ser auto o ser cero*/
+*{
+    margin: auto;
+    padding: auto;
+}
+
+/*Fuente determinada "general" para la página*/
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*botones para ir a las redes o buscar en la web - pd: me falta poder alinear facebook e instagram a la izquierda y buscar a la derecha*/
+
+.botonera{
+    background-color: #FFE0AC;
+    width: auto;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*img=Lau mis creaciones - logo*/
+
+img{
+    width: 20%;
+    padding-top: 15px;
+    display: flex;
+    align-content: center ;
+    
+}
+
+/* Menu horizontal */
+
+.menu{
+    display: flex;
+    padding-bottom: 25px;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home{
+    color:#E04193;
+    font-weight: bold;
+}
+
+/* MAIN TEXTO DE BIENVENIDA - BOTON LEER MAS - IMAGEN TEMPLATE */
+
+.gridmain{
+    font-family: 'DM Serif Text', serif;
+    background-color: #F9F9F9;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#templateportada{
+    height: 400px;
+    width: 600px;
+}
+
+main{
+    margin-left: 20px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+Button {
+	background-color:#72D6BE;
+	border-radius:6px;
+	border:1px solid #61bba6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+
+/* Mediaqueries */
+@media (max-width:500px) {
+    body{
+        background-color: red;
+    }
+}
+
+/*Caracteristicas Navbar - bootstrap*/
+.btn-outline-success{
+    color: hotpink;
+}
+
+
+
+.btn-outline-secondary{
+    color: hotpink;
+}
+
